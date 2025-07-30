@@ -14,6 +14,6 @@ onlineAgent = OnlineAgent(llm)
 
 prompt = "Can you tell me what the latest update for Unreal Engine 5 is?"
 print("Sending request to agent...")
-resp = online_agent.search(prompt)
+resp = onlineAgent.search(prompt)
 print("Response received:")
 print(resp)
